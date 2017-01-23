@@ -43,3 +43,4 @@ Tubulidentata
   830  history 821-827 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
   831  history 11
   832  history 11 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
+The 10th largest species in the database is glacialis and the 10th smallest is nanulus.
