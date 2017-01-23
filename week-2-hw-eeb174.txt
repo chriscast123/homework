@@ -73,3 +73,4 @@ The 10th largest species in the database is glacialis and the 10th smallest is n
   874  grep -r "Gorilla" data/
   875  history
   876  history 29 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
+2. The file size for Marra2014_data.fasta is 556k. 4. 16 contigs are classified as isogroup00036. 6. There are 43 unique isogroups in the file. 7. Contig00302 has the highest number of reads which is 3330.
