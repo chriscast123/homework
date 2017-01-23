@@ -44,3 +44,32 @@ Tubulidentata
   831  history 11
   832  history 11 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
 The 10th largest species in the database is glacialis and the 10th smallest is nanulus.
+  848  cd unix
+  849  cd sandbox
+  850  wc -1 BodyM.csv
+  851  wc -l BodyM.csv
+  852  cd Desktop
+  853  cd CSB
+  854  cd unix
+  855  cd sandstorm
+  856  cd sandbox
+  857  wc -l BodyM.csv
+  858  grep Vombatidae BodyM.csv
+  859  grep -c Vombatidae BodyM.csv
+  860  grep Bos BodyM.csv
+  861  grep -w Bos BodyM.csv
+  862  grep -i Bos BodyM.csv
+  863  grep -B 2 -A 2 "Groilla Gorilla" BodyM.csv 
+  864  grep -B 2 -A 2 "Groilla gorilla" BodyM.csv 
+  865  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv 
+  866  grep -n "Gorilla gorilla" BodyM.csv 
+  867  grep Gorilla BodyM.csv | grep -v gorilla
+  868  grep -w "Gorilla/Pan" BodyM.csv 
+  869  grep -w "Gorilla\Pan" BodyM.csv 
+  870  grep -w "Gorilla\|Pan" BodyM.csv 
+  871  cd ~CSB/unix/
+  872  cd ~/CSB/unix/
+  873  cd ..
+  874  grep -r "Gorilla" data/
+  875  history
+  876  history 29 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
