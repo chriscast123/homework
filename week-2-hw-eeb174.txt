@@ -32,3 +32,14 @@ Rodentia
 Scandentia
 Sirenia
 Tubulidentata
+  822  tail -n +2 ../data/Pacifici2013_data.csv
+  823  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f2-6
+  824  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f2-6 | tr -s ';' ' '
+  825  | sort -r -n -k 6
+  826  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f2-6 | tr -s ';' ' ' | sort -r -n -k 6
+  827  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+  828  history n >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
+  829  history
+  830  history 821-827 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
+  831  history 11
+  832  history 11 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb174.txt 
