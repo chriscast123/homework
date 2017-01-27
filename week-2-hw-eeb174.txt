@@ -76,11 +76,11 @@ The 10th largest species in the database is glacialis and the 10th smallest is n
 2. The file size for Marra2014_data.fasta is 556k. 4. 16 contigs are classified as isogroup00036. 6. There are 43 unique isogroups in the file. 7. Contig00302 has the highest number of reads which is 3330.
 for Saavedra2013 in *; do mv Saavedra2013.txt edited-Saavedra2013.txt; done
 
-Using grep - 1. grep "of" haiku.txt, 3. grep -w "of" haiku.txt, 4. grep -i "of" haiku,txt
-find Pipeline Reading Comprehension - 
+Using grep - 1. grep "of" haiku.txt, 2. grep -E "of" haiku.txt 3. grep -w "of" haiku.txt, 4. grep -i "of" haiku,txt
+find Pipeline Reading Comprehension - word & line count, command is also going to find all .dat files, and sorting it by number   
 Matching and Subtracting - 3. grep -v "temp" $(find/data -name '*ose.dat')
-Tracking a Species - 
+Tracking a Species - grep -w -r -d 2 $1 $3 > 1.txt
 Little Woman -
-Finding Files With Different Properties -
+Finding Files With Different Properties - $ find ./ -type f -mtime -1 -user ahmed
 
 
